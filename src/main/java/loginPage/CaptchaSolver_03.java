@@ -37,11 +37,11 @@ public class CaptchaSolver_03 {
 			try {
 				WebElement emailField = driver.findElement(By.xpath("//input[@formcontrolname='email']"));
 				emailField.clear();
-				emailField.sendKeys("sanjay.giri@scoreme.in");
+				emailField.sendKeys("username");
 
 				WebElement passwordField = driver.findElement(By.id("password"));
 				passwordField.clear();
-				passwordField.sendKeys("Sa10057029@");
+				passwordField.sendKeys("password");
 				
 				WebElement captchaField = driver.findElement(By.xpath("//input[@placeholder='Enter Captcha']"));
 				captchaField.clear();
