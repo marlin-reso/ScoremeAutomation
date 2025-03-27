@@ -61,12 +61,12 @@ public class NetworkCapture {
 			// Enter email
 			WebElement emailField = driver.findElement(By.xpath("//input[@formcontrolname='email']"));
 			emailField.clear();
-			emailField.sendKeys("sanjay.giri@scoreme.in");
+			emailField.sendKeys("xyz");
 
 			// Enter password
 			WebElement passwordField = driver.findElement(By.id("password"));
 			passwordField.clear();
-			passwordField.sendKeys("Sa10057029@");
+			passwordField.sendKeys("12345");
 
 			// Enter the solved CAPTCHA (use captchaBase64 for decoding/solving logic if needed)
 			WebElement captchaField = driver.findElement(By.xpath("//input[@placeholder='Enter Captcha']"));
